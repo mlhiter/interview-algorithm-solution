@@ -2,8 +2,8 @@
 # 难度：medium
 
 
-# 解法：贪心
-# 思路：https://leetcode.cn/problems/largest-number/solutions/1/179-zui-da-shu-tan-xin-qing-xi-tu-jie-by-wboz/
+# 解法：排序
+# 思路：比较一下两个字符串拼接之后的数的值大小即可，按照从大到小排列就是最大数
 # 复杂度：时间复杂度O(nlogn),空间复杂度O(logn)
 import functools
 from typing import List
