@@ -7,6 +7,7 @@ from typing import List
 
 # 题目要求:时间复杂度为O(log(m+n)),一眼二分查找
 # 解法:二分查找
+# 复杂度：时间复杂度O(log(m+n))，空间复杂度O(1)
 class Solution:
     def findMedianSortedArrays(self, nums1: List[int], nums2: List[int]) -> float:
         # 函数：寻找两个数组第k小元素（二分查找）
